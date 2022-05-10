@@ -19,7 +19,8 @@
     border: 1px solid grey;
     grid-row: 1 / 3 ;
    display: grid;
-   grid-template-rows: 1fr 4fr 6fr ;
+   grid-template-columns: 1fr 4fr ;
+   
    
 
    
@@ -28,26 +29,19 @@
 
 .header {
     border: 1px solid grey;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 2fr 1fr ;
 
 }
 
 .mainContent {
     border: 1px solid grey;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
 
 }
 
-.dash {
-    margin-top: 20px;
-
-}
-
-.home {
-    margin-top: 20px;
-}
-
-.settings {
-    margin-top: 20px;
-}
 
 
 
